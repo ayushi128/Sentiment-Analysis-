@@ -7,6 +7,7 @@ This project implements a sentiment analysis pipeline that classifies tweets int
 
 ## Dataset
 The dataset used is the Twitter Sentiment Analysis Dataset from Kaggle. It contains labeled tweets used for training and validating the model.
+The link for Kaggle- https://www.kaggle.com/datasets
 
 ## Technologies Used
 - Python 3.x
@@ -22,17 +23,15 @@ To install the required libraries, run:
 ## Usage
 1. Clone or download the repository.
 2. Place the dataset CSV files (`twitter_training.csv`, `twitter_validation.csv`) in the `data/` folder.
-3. Run the Jupyter notebook or Python script `sentiment_analysis_demo.ipynb` / `sentiment_analysis_demo.py`.
-4. The notebook/script preprocesses the data, trains the model, and outputs accuracy and confusion matrix.
+4. Run the Jupyter notebook or Python script `sentiment_analysis_demo.ipynb` / `sentiment_analysis_demo.py`.
+5. The notebook/script preprocesses the data, trains the model, and outputs accuracy and confusion matrix.
 
 ## Project Structure
 - `data/` - Folder containing dataset CSV files.
 - `sentiment_analysis_demo.ipynb` - Jupyter notebook with code and explanations.
-- `README.md` - This file.
-- `demo_video.mp4` - Demo video of the project (optional).
 
 ## Results
-The model achieves approximately 91.1% accuracy on validation data. The confusion matrix provides a detailed summary of correct and incorrect predictions per sentiment class.
+The model achieves approximately 91.1% accuracy on validation data for Twitter dataset and 82.7% accuracy for a sample dataset. The confusion matrix provides a detailed summary of correct and incorrect predictions.
 
 ## Future Work
 - Improve preprocessing using advanced NLTK features.
